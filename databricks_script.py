@@ -5,7 +5,7 @@ spark
 
 stac_name = "tokiyostoragedata"
 con_name = "tokiyo-olympic-data"
-access_key = "V2ZYgswxvY6gZTpTa58duAFuOzxRN6OMfoqYrbVwhEzVbsUWadq/2DMhKGtH/pwtu4q9lMEwA4F1+AStn938mg=="
+access_key = ""
 
 spark.conf.set(f"fs.azure.account.key.{stac_name}.blob.core.windows.net", access_key)
 
